@@ -1,0 +1,47 @@
+.escape_container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.escape_title {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.12;
+  text-align: center;
+  color: var(--acctent-color);
+}
+
+.escape_text {
+  width: 554px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--acctent-color);
+  text-align: center;
+}
+
+.escape_discription {
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #333333;
+}
+
+.escape_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -21px;
+  margin-top: 30px;
+}
+
+.escape_item {
+  display: flex;
+  flex-basis: calc(100% / 2 - 42px);
+  margin: 21px;
+}

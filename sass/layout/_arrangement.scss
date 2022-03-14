@@ -1,0 +1,64 @@
+.arrangement {
+  background-color: #faf8f0;
+}
+.container_arrangement {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.arrangement_title {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.12;
+  text-align: center;
+  color: var(--acctent-color);
+}
+
+.arrangement_text {
+  width: 554px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--acctent-color);
+  text-align: center;
+}
+
+.arrangement_wrap {
+  display: flex;
+}
+
+.arrangement_list {
+  display: flex;
+  margin: -36px;
+}
+
+.arrangement_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: calc(100% / 3 - 72px);
+  margin: 36px;
+}
+
+.arrangement_icon {
+  margin-top: 30px;
+}
+
+.arrangement_area {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--acctent-color);
+  text-align: center;
+}
+
+.arrangement_description {
+  @extend .arrangement_area;
+  margin-top: 1px;
+}

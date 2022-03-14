@@ -1,0 +1,53 @@
+.container_togerher {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.together_wrap-right {
+  margin-left: 105px;
+}
+.page_item-together {
+  width: 42px;
+  height: 8px;
+  background-color: #e08631;
+  border-radius: 0px;
+  margin-right: auto;
+}
+.together_title {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.12;
+  text-align: left;
+  color: var(--acctent-color);
+}
+
+.together_text {
+  width: 514px;
+  margin-right: auto;
+  margin-top: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--acctent-color);
+  text-align: left;
+}
+.togerher_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -37px;
+  margin-top: -59px;
+}
+.togerher_item {
+  display: flex;
+  flex-basis: calc(100% / 2 - 74px);
+  margin-left: 37px;
+  margin-top: 59px;
+}
+.togerher_description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: var(--acctent-color);
+  margin-left: 16px;
+}

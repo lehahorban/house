@@ -1,0 +1,138 @@
+.footer {
+  background-color: #52503b;
+}
+.container_footer {
+  padding-top: 100px;
+  padding-bottom: 110px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_list {
+}
+.footer_item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+  &:first-child {
+    text-transform: uppercase;
+  }
+}
+.footer_wrap-center {
+  margin-left: 238px;
+}
+.footer_title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.footer_list-center {
+  display: flex;
+  margin-top: 20px;
+}
+.footer_item-center {
+  &:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+.footer_wrap-right {
+  margin-left: 160px;
+}
+.footer_title-right {
+  @extend .footer_title;
+}
+.footer_text-right {
+  width: 563px;
+  margin-top: 1px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #ffffff;
+}
+.footer_form {
+  margin-top: 9px;
+}
+.footer_input {
+  position: absolute;
+  width: 576px;
+  height: 52px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding-left: 30px;
+}
+
+.footer_label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #52503b;
+}
+.footer_form-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 11px;
+  left: 508px;
+  width: 61px;
+  height: 30px;
+  background-color: #52503b;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #ffffff;
+}
+.footer_wrap-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_bootom-title {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  text-align: center;
+  color: #ffffff;
+}
+.footer_address {
+  margin-top: 20px;
+}
+.address_list {
+  display: flex;
+}
+.address_item {
+  position: relative;
+  & + & {
+    margin-left: 22px;
+  }
+  & + &::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 1px;
+    background-color: #ffffff;
+    left: -18px;
+    top: 50%;
+  }
+}
+.address_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #ffffff;
+}
